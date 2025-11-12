@@ -1,0 +1,63 @@
+{
+  "resources": {
+    "metal": {
+      "name": "Metal",
+      "productionRate": 30,
+      "storageCapacity": 10000
+    },
+    "crystal": {
+      "name": "Crystal",
+      "productionRate": 20,
+      "storageCapacity": 8000
+    },
+    "deuterium": {
+      "name": "Deuterium",
+      "productionRate": 10,
+      "storageCapacity": 5000
+    }
+  },
+  "buildings": {
+    "metalMine": {
+      "name": "Metal Mine",
+      "cost": {
+        "metal": 60,
+        "crystal": 15
+      },
+      "buildTime": 30
+    },
+    "crystalMine": {
+      "name": "Crystal Mine",
+      "cost": {
+        "metal": 48,
+        "crystal": 24
+      },
+      "buildTime": 40
+    },
+    "deuteriumSynthesizer": {
+      "name": "Deuterium Synthesizer",
+      "cost": {
+        "metal": 225,
+        "crystal": 75
+      },
+      "buildTime": 60
+    }
+  },
+  "technologies": {
+    "laserTechnology": {
+      "name": "Laser Technology",
+      "cost": {
+        "metal": 200,
+        "crystal": 100
+      },
+      "researchTime": 60
+    },
+    "ionTechnology": {
+      "name": "Ion Technology",
+      "cost": {
+        "metal": 400,
+        "crystal": 200
+      },
+      "researchTime": 120
+    }
+  }
+}
